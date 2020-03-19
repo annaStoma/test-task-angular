@@ -1,0 +1,167 @@
+{
+  "movies": [
+  {
+    "name" : "The Terror",
+    "genre" : ["horror", "drama"],
+    "season": "3",
+    "network": "AMC",
+    "premiere": "2019"
+  },
+  {
+    "name" : "True Detective",
+    "genre" : [ "crime", "drama", "mystery"],
+    "season": "3",
+    "network": "HBO",
+    "premiere": "2018"
+  },
+  {
+    "name" : "Superstore",
+    "genre" : ["comedy"],
+    "season": "5",
+    "network": "NBC",
+    "premiere": "2015"
+  },
+  {
+    "name" : "One Day at a Time",
+    "genre" : ["drama"],
+    "season": "3",
+    "network": "Netflix",
+    "premiere": "2017"
+  },
+  {
+    "name" : "The Good Fight",
+    "genre" : ["drama"],
+    "season": "3",
+    "network": "CBS All Access",
+    "premiere": "2017"
+  },
+  {
+    "name" : "Justified",
+    "genre" : ["crime", "drama"],
+    "season": "6",
+    "network": "FX",
+    "premiere": "2010"
+  },
+  {
+    "name" : "Big Little Lies",
+    "genre" : ["mystery", "drama", "dark comedy"],
+    "season": "2",
+    "network": "HBO",
+    "premiere": "2017"
+  },
+  {
+    "name" : "Homecoming",
+    "genre" : ["thriller"],
+    "season": "1",
+    "network": "Amazon",
+    "premiere": "2018"
+  },
+  {
+    "name" : "Archer",
+    "genre" : ["sitcom"],
+    "season": "10",
+    "network": "FX",
+    "premiere": "2009"
+  },
+  {
+    "name" : "Killing Eve",
+    "genre" : ["thriller", "drama", "dark comedy"],
+    "season": "2",
+    "network": "AMC",
+    "premiere": "2018"
+  },
+  {
+    "name" : "Fargo",
+    "genre" : ["dark comedy", "drama"],
+    "season": "4",
+    "network": "FX",
+    "premiere": "2014"
+  },
+  {
+    "name" : "Master of None",
+    "genre" : ["comedy", "drama"],
+    "season": "2",
+    "network": "Netflix",
+    "premiere": "2015"
+  },
+  {
+    "name" : "True Detective",
+    "genre" : [ "crime", "drama", "mystery"],
+    "season": "3",
+    "network": "HBO",
+    "premiere": "2018"
+  },
+  {
+    "name" : "Superstore",
+    "genre" : ["comedy"],
+    "season": "5",
+    "network": "NBC",
+    "premiere": "2015"
+  },
+  {
+    "name" : "One Day at a Time",
+    "genre" : ["drama"],
+    "season": "3",
+    "network": "Netflix",
+    "premiere": "2017"
+  },
+  {
+    "name" : "The Good Fight",
+    "genre" : ["drama"],
+    "season": "3",
+    "network": "CBS All Access",
+    "premiere": "2017"
+  },
+  {
+    "name" : "Justified",
+    "genre" : ["crime", "drama"],
+    "season": "6",
+    "network": "FX",
+    "premiere": "2010"
+  },
+  {
+    "name" : "Big Little Lies",
+    "genre" : ["mystery", "drama", "dark comedy"],
+    "season": "2",
+    "network": "HBO",
+    "premiere": "2017"
+  },
+  {
+    "name" : "Homecoming",
+    "genre" : ["thriller"],
+    "season": "1",
+    "network": "Amazon",
+    "premiere": "2018"
+  },
+  {
+    "name" : "Archer",
+    "genre" : ["sitcom"],
+    "season": "10",
+    "network": "FX",
+    "premiere": "2009"
+  },
+  {
+    "name" : "Killing Eve",
+    "genre" : ["thriller", "drama", "dark comedy"],
+    "season": "2",
+    "network": "AMC",
+    "premiere": "2018"
+  },
+  {
+    "name" : "Fargo",
+    "genre" : ["dark comedy", "drama"],
+    "season": "4",
+    "network": "FX",
+    "premiere": "2014"
+  },
+  {
+    "name" : "Master of None",
+    "genre" : ["comedy", "drama"],
+    "season": "2",
+    "network": "Netflix",
+    "premiere": "2015"
+  }
+]
+}
+
+

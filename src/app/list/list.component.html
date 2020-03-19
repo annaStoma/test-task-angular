@@ -1,0 +1,35 @@
+<div class="movie-list">
+    <div class="movie-list__search">
+        <input type="text" placeholder="Network" class="search searchNetwork" [(ngModel)]="searchValue">
+        <select class="search searchGenre" (change)="setSelectedGenre()" [(ngModel)]="selectedGenre">
+            <option hidden value="" disabled selected>Genre</option>
+            <option *ngFor="let item of genre" [ngValue]="item">{{item.genre}}</option>
+          </select>
+        <select class="search searchPremiere" (change)="setSelectedYear()" [(ngModel)]="selectedYear">
+                <option disabled selected value hidden>Premiere</option>
+                <option *ngFor="let item of years" [ngValue]="item">{{item.year}}</option>
+              </select>
+    </div>
+    <div class="movie-list__title title" matSort (matSortChange)="sortData($event)">
+        <span class="title-name" mat-sort-header="name">Name</span>
+        <span class="title-season" mat-sort-header="season">Season</span>
+        <span class="title-network" mat-sort-header="network">Network</span>
+        <span class="title-premiere" mat-sort-header="premiere">Premiere</span>
+    </div>
+
+
+    <div *ngFor="let item of sortedMovies | networkFilter:searchValue | genreFilter:selectedGenre | premiereFilter : selectedYear | paginate:{ itemsPerPage: itemsPerPage, currentPage: p }" class="movie-list__item item">
+        <span class="item-name "> {{item.name}}
+    <div><span class="item-genre {{genre}}" *ngFor="let genre of item.genre">{{genre}}</span></div>
+    </span>
+    <span class="item-season">{{item.season}}  </span>
+    <span class="item-network"> {{item.network}}</span>
+    <span class="item-premiere">{{item.premiere}}</span>
+</div>
+<div class="items-per-page-buttons">
+    <input type="button" value="5" (click)="getValue($event)">
+    <input type="button" value="10" (click)="getValue($event)">
+    <input type="button" value="15" (click)="getValue($event)">
+</div>
+<pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

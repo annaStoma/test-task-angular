@@ -1,0 +1,176 @@
+.movie-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    height: auto;
+
+    &__search {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+
+        .search {
+            width: 32%;
+            outline: none;
+            background-color: rgb(248, 170, 0);
+            border: none;
+            color: rgb(255, 255, 255);
+            border-radius: 3px;
+            padding: 5px;
+
+            &::placeholder {
+                color: white;
+            }
+
+            &::selection {
+                background: rgb(226, 163, 255);
+            }
+        }
+    }
+    &__title {
+        display: flex;
+        background-color: rgb(234, 190, 255);
+        border-radius: 6px;
+        padding: 8px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+
+        .title {
+
+            &-name {
+                width: 35%;
+            }
+
+            &-season {
+                width: 22%;
+                display: flex;
+                justify-content: center;
+            }
+
+            &-network {
+                width: 23%;
+                display: flex;
+                justify-content: center;
+            }
+
+            &-premiere {
+                width: 20%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+    &__item {
+        display: flex;
+        margin: 5px 5px;
+        padding: 5px 5px;
+        border-radius: 6px;
+        background-color: rgb(236, 236, 236);
+
+        .item {
+
+            &-name {
+                width: 35%;
+            }
+
+            &-season {
+                display: flex;
+                justify-content: center;
+                width: 22%;
+            }
+
+            &-network {
+                width: 23%;
+                display: flex;
+                justify-content: center;
+            }
+
+            &-premiere {
+                width: 20%;
+                display: flex;
+                justify-content: center;
+            }
+
+            &-genre {
+                border-radius: 10px;
+                color: white;
+                width: fit-content;
+                padding-right: 5px;
+                padding-left: 5px;
+                margin: 3px;
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .items-per-page-buttons {
+        width: 98%;
+        padding: 5px;
+        display: flex;
+        justify-content: flex-end;
+
+        input {
+            border: none;
+            outline: none;
+            margin-left: 5px;
+            background: none;
+
+            &:hover {
+                background-color: rgb(1, 112, 223);
+                color: whitesmoke;
+                cursor: pointer;
+            }
+        }
+    }
+
+    pagination-controls {
+        display: flex;
+        justify-content: center;
+    }
+
+    .searchNetwork {
+        background-image: url('http://www.clker.com/cliparts/n/U/H/1/H/u/search-icon-white-one-hi.png');
+        background-repeat: no-repeat;
+        background-position: 98%;
+        background-size: 20px;
+    }
+
+    .drama {
+        background-color: #F8DA09;
+    }
+
+    .horror {
+        background-color: #87BA37;
+    }
+    
+    .crime {
+        background-color: #8A2F40;
+    }
+
+    .mystery {
+        background-color: #6F94C2;
+    }
+
+    .comedy {
+        background-color: #869787;
+    }
+
+    .dark {
+        background-color: #EFAAC4;
+    }
+
+    .sitcom {
+        background-color: #14CC60;
+    }
+    
+    .thriller {
+        background-color: #0A2E36;
+    }
+}
+
+
